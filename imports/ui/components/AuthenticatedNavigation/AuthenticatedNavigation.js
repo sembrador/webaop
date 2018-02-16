@@ -8,16 +8,16 @@ const AuthenticatedNavigation = ({ name, history }) => (
   <div>
     <Nav>
       <LinkContainer to="/documents">
-        <NavItem eventKey={1} href="/documents">Documents</NavItem>
+        <NavItem eventKey={1} href="/documents">DOCUMENTOS</NavItem>
       </LinkContainer>
     </Nav>
     <Nav pullRight>
       <NavDropdown eventKey={2} title={name} id="user-nav-dropdown">
         <LinkContainer to="/profile">
-          <NavItem eventKey={2.1} href="/profile">Profile</NavItem>
+          <NavItem eventKey={2.1} href="/profile">PERFIL</NavItem>
         </LinkContainer>
         <MenuItem divider />
-        <MenuItem eventKey={2.2} onClick={() => history.push('/logout')}>Logout</MenuItem>
+        <MenuItem eventKey={2.2} onClick={() => history.push('/logout')}>SALIR</MenuItem>
       </NavDropdown>
     </Nav>
   </div>

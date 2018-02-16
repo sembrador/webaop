@@ -1,7 +1,7 @@
 {
   "public": {},
   "private": {
-    "MAIL_URL": "",
+    "MAIL_URL": "smtp://postmaster@mail.castle-soft.com:95b30b660d9c2af416c773cba76f2d6c@smtp.mailgun.org",
     "OAuth": {
       "facebook": {
         "appId": "",

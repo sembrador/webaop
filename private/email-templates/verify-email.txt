@@ -1,8 +1,8 @@
-Hey, {{firstName}}!
+Estimado Socio, {{firstName}}!
 
-Can you do us a favor and verify your email address?
+Por favor verifique su correo electrónico haciendo click en el siguiente enlace.
 
-[Verify Email Address]({{verifyUrl}})
+[Verificar correo electrónico]({{verifyUrl}})
 
-Thanks!
-{{applicationName}} Team
+Gracias!
+Equipo de {{applicationName}}

@@ -20,13 +20,12 @@ const VerifyEmailAlert = ({ userId, emailVerified, emailAddress }) => (
   userId && !emailVerified ? (
     <div className="VerifyEmailAlert">
       <Alert className="verify-email text-center">
-        <p>Hey friend! Can you <strong>verify your email address</strong> ({emailAddress}) for us?
+        <p>Estimado Socio, Por favor <strong>verifique su correo electrónico</strong> ({emailAddress}) para nosotros.
           <Button
             bsStyle="link"
             onClick={() => handleResendVerificationEmail(emailAddress)}
-            href="#"
-          >
-            Re-send verification email
+            href="#">
+            Re-enviar verificación de correo
           </Button>
         </p>
       </Alert>
